@@ -1,0 +1,81 @@
+header{
+    height: 80px;
+}
+
+header > nav{
+    height: 100%;
+}
+
+.ms_logo-box{
+    width: 80px;
+    padding-top: 0.5rem;
+}
+
+.ms_logo{
+    width: 100%;
+}
+
+
+.fa-bell{
+    color: #FF8F00;
+    font-size: 20px;
+}
+
+.ms_d-none{
+    display: none;
+}
+
+.ms_search-bar-color{
+    background-color: #E5E5E5;
+}
+
+.sidebar{
+    width: 80px;
+    height: calc(100vh - 80px);
+}
+
+.content{
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    height: 300px;
+    background-color: salmon;
+}
+
+/* debug */
+header > nav{
+    background-color: lightpink;
+}
+
+main{
+    background-color: lightblue;
+   
+}
+
+.sidebar{
+    background-color: darkseagreen;
+}
+
+@media all and (min-width: 992px) {
+
+    header{
+        padding: 1rem;
+    }
+
+    .ms_logo-box{
+     width: 150px;
+     padding-top: 0.5rem;
+   }
+
+   .ms_logo-desktop{
+    width: 100%; 
+    }
+
+    .ms_d-none{
+        display: inline-block;
+    }
+
+    .ms_none-lg{
+        display: none;
+    }
+    
+}
